@@ -3,9 +3,9 @@ package exception
 import (
 	"errors"
 	"fmt"
-	"my-go-common-lib/model"
 	"net/http"
 
+	"github.com/BachVanHai/my-go-common-lib/model"
 	"github.com/labstack/echo/v4"
 )
 
