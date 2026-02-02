@@ -35,7 +35,7 @@ func ResponseWrapper(next echo.HandlerFunc) echo.HandlerFunc {
 			code = "INTERNAL_ERROR" // Hoặc logic lấy mã lỗi riêng
 		} else {
 			// Lấy data từ context nếu Handler có set
-			data = c.Get("result")
+			data = c.Get("response")
 			if msg := c.Get("message"); msg != nil {
 				message = msg.(string)
 			}
