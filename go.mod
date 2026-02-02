@@ -1,4 +1,4 @@
-module my-go-common-lib
+module github.com/BachVanHai/my-go-common-lib
 
 go 1.25.6
 
